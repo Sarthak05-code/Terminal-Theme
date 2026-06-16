@@ -1,0 +1,21 @@
+{
+  "name": "hacker-terminal-theme",
+  "displayName": "hacker-terminal-theme",
+  "description": "just a theme i made for fun ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Terminal-Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Terminal-Theme-color-theme.json"
+      }
+    ]
+  }
+}
